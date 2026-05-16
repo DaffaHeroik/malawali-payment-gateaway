@@ -1,0 +1,52 @@
+{
+  "name": "malawali-payment-gateway",
+  "version": "1.1.1",
+  "description": "Node.js SDK for Malawali Payment Gateway API (QRIS deposit, check, delete, mutation history)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "commonjs",
+  "keywords": [
+    "malawali",
+    "malawali-payment-gateway",
+    "payment",
+    "payment-gateway",
+    "payment-gateway-indonesia",
+    "qris",
+    "qris-api",
+    "qris-payment",
+    "deposit-api",
+    "topup-api",
+    "rest-api",
+    "nodejs-sdk",
+    "api"
+  ],
+  "author": "Daffa Heroik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaffaHeroik/malawali-payment-gateway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaffaHeroik/malawali-payment-gateway/issues"
+  },
+  "homepage": "https://github.com/DaffaHeroik/malawali-payment-gateway#readme",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node -e \"console.log('No test specified')\"",
+    "prepublishOnly": "node --check index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
