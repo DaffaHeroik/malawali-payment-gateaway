@@ -1,6 +1,6 @@
 {
   "name": "malawali-payment-gateway",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Node.js SDK for Malawali Payment Gateway API (QRIS deposit, check, delete, mutation history)",
   "main": "index.js",
   "types": "index.d.ts",
